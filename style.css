@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+img{
+    cursor: pointer;
+}
+.navbar-logo img{
+    height: 45px;
+    filter: drop-shadow(0 0 9px #0b0a0a);
+    border-radius: 50%;
+}
+.nav-item ul li{
+    margin-left: 15px; 
+
+}
+.nav-item ul li a{
+    font-size: 18px;
+    transition: all ;
+}
+.nav-item ul li a:hover{
+    background-color: rgb(231, 233, 243);
+    border-radius: 10px;
+    
+}
+.search-bar{
+    font-size: 16px;
+}
+
+.main-contant button a{
+    text-decoration: none;
+    color: white;
+}
+.main-contant img{
+    border-radius: 30%;
+   
+}
+.main-contant button{
+    font-size: larger;
+    border-radius: 12px;
+    
+}
+.col{
+    height: 130px;
+    
+}
+.font-icon{
+    font-size: 220%;
+    
+}
+.font-icon-inner{
+    background-color: rgb(73 46 46);
+    color: white;
+}
+.font-icon-inner h5{
+    font-size: 26px;
+    color: rgb(187, 128, 128);
+}
+.feedback{
+  flex-wrap: wrap;
+  
+}
+
+.about-us-btn a{
+    color: white;
+    text-decoration: none;
+
+}
+.feedback{
+   margin-top: -20px;
+}
+.nav-links{
+    margin-top: 130px;
+    background-color: rgb(235, 230, 230);
+}
+.feedback-item{
+    margin-top: -65px;
+}
